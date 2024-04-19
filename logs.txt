@@ -1,0 +1,986 @@
+/usr/local/lib/python3.10/dist-packages/langchain/document_loaders/__init__.py:36: LangChainDeprecationWarning: Importing document loaders from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.document_loaders import PyPDFLoader`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/langchain/chat_models/__init__.py:31: LangChainDeprecationWarning: Importing chat models from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.chat_models import ChatOpenAI`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/langchain/__init__.py:29: UserWarning: Importing OpenAI from langchain root module is no longer supported. Please use langchain_community.llms.OpenAI instead.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/langchain/embeddings/__init__.py:29: LangChainDeprecationWarning: Importing embeddings from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.embeddings import HuggingFaceEmbeddings`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/langchain/__init__.py:29: UserWarning: Importing HuggingFacePipeline from langchain root module is no longer supported. Please use langchain_community.llms.huggingface_pipeline.HuggingFacePipeline instead.
+  warnings.warn(
+2024-04-11 03:41:08.269216: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-04-11 03:41:08.269263: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-04-11 03:41:08.270500: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-04-11 03:41:09.470092: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-04-11 03:41:12 - PyTorch version 2.2.1+cu121 available.
+2024-04-11 03:41:12 - TensorFlow version 2.15.0 available.
+2024-04-11 03:41:12 - JAX version 0.4.26 available.
+2024-04-11 03:41:12 - Created default chainlit markdown file at /content/chainlit.md
+2024-04-11 03:41:12 - Your app is available at http://localhost:8000
+2024-04-11 03:42:08 - Translation file for zh-HK not found. Using default translation en-US.
+2024-04-11 03:42:09 - Translated markdown file for zh-HK not found. Defaulting to chainlit.md.
+2024-04-11 03:42:10 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2024-04-11 03:42:12 - Use pytorch device_name: cuda
+2024-04-11 03:42:12 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+tokenizer_config.json:   0%|          | 0.00/727 [00:00<?, ?B/s]tokenizer_config.json: 100%|██████████| 727/727 [00:00<00:00, 4.22MB/s]
+tokenizer.model:   0%|          | 0.00/500k [00:00<?, ?B/s]tokenizer.model: 100%|██████████| 500k/500k [00:00<00:00, 21.4MB/s]
+tokenizer.json:   0%|          | 0.00/1.84M [00:00<?, ?B/s]tokenizer.json: 100%|██████████| 1.84M/1.84M [00:00<00:00, 4.44MB/s]tokenizer.json: 100%|██████████| 1.84M/1.84M [00:00<00:00, 4.42MB/s]
+special_tokens_map.json:   0%|          | 0.00/411 [00:00<?, ?B/s]special_tokens_map.json: 100%|██████████| 411/411 [00:00<00:00, 2.11MB/s]
+config.json:   0%|          | 0.00/789 [00:00<?, ?B/s]config.json: 100%|██████████| 789/789 [00:00<00:00, 4.51MB/s]
+config.json:   0%|          | 0.00/766 [00:00<?, ?B/s]config.json: 100%|██████████| 766/766 [00:00<00:00, 4.50MB/s]
+quantize_config.json:   0%|          | 0.00/187 [00:00<?, ?B/s]quantize_config.json: 100%|██████████| 187/187 [00:00<00:00, 1.07MB/s]
+model.safetensors:   0%|          | 0.00/3.90G [00:00<?, ?B/s]model.safetensors:   0%|          | 10.5M/3.90G [00:00<00:40, 96.2MB/s]model.safetensors:   1%|          | 31.5M/3.90G [00:00<00:24, 158MB/s] model.safetensors:   2%|▏         | 73.4M/3.90G [00:00<00:14, 272MB/s]model.safetensors:   3%|▎         | 115M/3.90G [00:00<00:11, 325MB/s] model.safetensors:   4%|▍         | 168M/3.90G [00:00<00:10, 370MB/s]model.safetensors:   6%|▌         | 220M/3.90G [00:00<00:09, 394MB/s]model.safetensors:   7%|▋         | 273M/3.90G [00:00<00:08, 411MB/s]model.safetensors:   8%|▊         | 325M/3.90G [00:00<00:08, 420MB/s]model.safetensors:  10%|▉         | 377M/3.90G [00:01<00:08, 427MB/s]model.safetensors:  11%|█         | 430M/3.90G [00:01<00:08, 432MB/s]model.safetensors:  12%|█▏        | 482M/3.90G [00:01<00:07, 433MB/s]model.safetensors:  14%|█▎        | 535M/3.90G [00:01<00:07, 432MB/s]model.safetensors:  15%|█▌        | 587M/3.90G [00:01<00:07, 424MB/s]model.safetensors:  16%|█▋        | 640M/3.90G [00:01<00:07, 422MB/s]model.safetensors:  18%|█▊        | 692M/3.90G [00:01<00:07, 419MB/s]model.safetensors:  19%|█▉        | 744M/3.90G [00:01<00:07, 421MB/s]model.safetensors:  20%|██        | 797M/3.90G [00:02<00:07, 403MB/s]model.safetensors:  22%|██▏       | 839M/3.90G [00:02<00:07, 387MB/s]model.safetensors:  23%|██▎       | 881M/3.90G [00:02<00:07, 386MB/s]model.safetensors:  24%|██▎       | 923M/3.90G [00:02<00:07, 376MB/s]model.safetensors:  25%|██▍       | 965M/3.90G [00:02<00:07, 375MB/s]model.safetensors:  26%|██▌       | 1.01G/3.90G [00:02<00:07, 375MB/s]model.safetensors:  27%|██▋       | 1.05G/3.90G [00:02<00:07, 378MB/s]model.safetensors:  28%|██▊       | 1.09G/3.90G [00:02<00:07, 385MB/s]model.safetensors:  29%|██▉       | 1.13G/3.90G [00:02<00:07, 390MB/s]model.safetensors:  30%|███       | 1.17G/3.90G [00:03<00:07, 371MB/s]model.safetensors:  31%|███       | 1.22G/3.90G [00:03<00:07, 378MB/s]model.safetensors:  32%|███▏      | 1.26G/3.90G [00:03<00:07, 365MB/s]model.safetensors:  33%|███▎      | 1.30G/3.90G [00:03<00:07, 361MB/s]model.safetensors:  34%|███▍      | 1.34G/3.90G [00:03<00:07, 364MB/s]model.safetensors:  36%|███▌      | 1.38G/3.90G [00:03<00:06, 365MB/s]model.safetensors:  37%|███▋      | 1.43G/3.90G [00:03<00:06, 372MB/s]model.safetensors:  38%|███▊      | 1.47G/3.90G [00:03<00:07, 342MB/s]model.safetensors:  39%|███▊      | 1.51G/3.90G [00:03<00:06, 342MB/s]model.safetensors:  40%|███▉      | 1.55G/3.90G [00:04<00:06, 349MB/s]model.safetensors:  41%|████      | 1.59G/3.90G [00:04<00:06, 362MB/s]model.safetensors:  42%|████▏     | 1.64G/3.90G [00:04<00:06, 357MB/s]model.safetensors:  43%|████▎     | 1.68G/3.90G [00:04<00:06, 355MB/s]model.safetensors:  44%|████▍     | 1.72G/3.90G [00:04<00:06, 362MB/s]model.safetensors:  45%|████▌     | 1.76G/3.90G [00:04<00:05, 370MB/s]model.safetensors:  46%|████▋     | 1.80G/3.90G [00:04<00:05, 377MB/s]model.safetensors:  47%|████▋     | 1.85G/3.90G [00:04<00:05, 388MB/s]model.safetensors:  49%|████▊     | 1.90G/3.90G [00:04<00:04, 403MB/s]model.safetensors:  50%|█████     | 1.95G/3.90G [00:05<00:04, 410MB/s]model.safetensors:  51%|█████▏    | 2.00G/3.90G [00:05<00:04, 415MB/s]model.safetensors:  53%|█████▎    | 2.06G/3.90G [00:05<00:04, 420MB/s]model.safetensors:  54%|█████▍    | 2.11G/3.90G [00:05<00:04, 423MB/s]model.safetensors:  55%|█████▌    | 2.16G/3.90G [00:05<00:04, 428MB/s]model.safetensors:  57%|█████▋    | 2.21G/3.90G [00:05<00:03, 434MB/s]model.safetensors:  58%|█████▊    | 2.26G/3.90G [00:05<00:03, 418MB/s]model.safetensors:  59%|█████▉    | 2.31G/3.90G [00:05<00:03, 415MB/s]model.safetensors:  60%|██████    | 2.35G/3.90G [00:06<00:04, 382MB/s]model.safetensors:  61%|██████▏   | 2.39G/3.90G [00:06<00:03, 387MB/s]model.safetensors:  62%|██████▏   | 2.43G/3.90G [00:06<00:03, 389MB/s]model.safetensors:  64%|██████▎   | 2.47G/3.90G [00:06<00:03, 361MB/s]model.safetensors:  65%|██████▍   | 2.53G/3.90G [00:06<00:03, 375MB/s]model.safetensors:  66%|██████▌   | 2.57G/3.90G [00:06<00:03, 357MB/s]model.safetensors:  67%|██████▋   | 2.61G/3.90G [00:06<00:03, 329MB/s]model.safetensors:  68%|██████▊   | 2.65G/3.90G [00:06<00:03, 330MB/s]model.safetensors:  69%|██████▉   | 2.69G/3.90G [00:07<00:03, 352MB/s]model.safetensors:  70%|███████   | 2.74G/3.90G [00:07<00:03, 345MB/s]model.safetensors:  71%|███████▏  | 2.78G/3.90G [00:07<00:03, 363MB/s]model.safetensors:  72%|███████▏  | 2.82G/3.90G [00:07<00:02, 378MB/s]model.safetensors:  73%|███████▎  | 2.86G/3.90G [00:07<00:02, 366MB/s]model.safetensors:  75%|███████▍  | 2.90G/3.90G [00:07<00:02, 365MB/s]model.safetensors:  76%|███████▌  | 2.95G/3.90G [00:07<00:02, 361MB/s]model.safetensors:  77%|███████▋  | 2.99G/3.90G [00:07<00:02, 367MB/s]model.safetensors:  78%|███████▊  | 3.03G/3.90G [00:07<00:02, 372MB/s]model.safetensors:  79%|███████▉  | 3.07G/3.90G [00:08<00:02, 363MB/s]model.safetensors:  80%|███████▉  | 3.11G/3.90G [00:08<00:02, 344MB/s]model.safetensors:  81%|████████  | 3.16G/3.90G [00:08<00:02, 354MB/s]model.safetensors:  82%|████████▏ | 3.20G/3.90G [00:08<00:01, 366MB/s]model.safetensors:  83%|████████▎ | 3.24G/3.90G [00:08<00:01, 373MB/s]model.safetensors:  84%|████████▍ | 3.28G/3.90G [00:08<00:01, 379MB/s]model.safetensors:  85%|████████▌ | 3.32G/3.90G [00:08<00:01, 363MB/s]model.safetensors:  86%|████████▋ | 3.37G/3.90G [00:08<00:01, 352MB/s]model.safetensors:  87%|████████▋ | 3.41G/3.90G [00:09<00:01, 345MB/s]model.safetensors:  89%|████████▊ | 3.45G/3.90G [00:09<00:01, 332MB/s]model.safetensors:  90%|████████▉ | 3.49G/3.90G [00:09<00:01, 325MB/s]model.safetensors:  91%|█████████ | 3.53G/3.90G [00:09<00:01, 317MB/s]model.safetensors:  92%|█████████▏| 3.58G/3.90G [00:09<00:00, 329MB/s]model.safetensors:  93%|█████████▎| 3.62G/3.90G [00:09<00:00, 336MB/s]model.safetensors:  94%|█████████▍| 3.66G/3.90G [00:09<00:00, 348MB/s]model.safetensors:  95%|█████████▌| 3.71G/3.90G [00:09<00:00, 370MB/s]model.safetensors:  97%|█████████▋| 3.76G/3.90G [00:10<00:00, 386MB/s]model.safetensors:  98%|█████████▊| 3.81G/3.90G [00:10<00:00, 335MB/s]model.safetensors:  99%|█████████▉| 3.85G/3.90G [00:10<00:00, 322MB/s]model.safetensors: 100%|█████████▉| 3.89G/3.90G [00:10<00:00, 319MB/s]model.safetensors: 100%|██████████| 3.90G/3.90G [00:10<00:00, 370MB/s]
+INFO - The layer lm_head is not quantized.
+2024-04-11 03:42:26 - The layer lm_head is not quantized.
+2024-04-11 03:42:29 - Some weights of the model checkpoint at /root/.cache/huggingface/hub/models--TheBloke--Llama-2-7B-chat-GPTQ/snapshots/10a673399ca0de58a24ccc04a504444e638b0251/model.safetensors were not used when initializing LlamaForCausalLM: {'model.layers.10.self_attn.rotary_emb.inv_freq', 'model.layers.15.self_attn.rotary_emb.inv_freq', 'model.layers.20.self_attn.rotary_emb.inv_freq', 'model.layers.31.self_attn.rotary_emb.inv_freq', 'model.layers.14.self_attn.rotary_emb.inv_freq', 'model.layers.5.self_attn.rotary_emb.inv_freq', 'model.layers.13.self_attn.rotary_emb.inv_freq', 'model.layers.0.self_attn.rotary_emb.inv_freq', 'model.layers.2.self_attn.rotary_emb.inv_freq', 'model.layers.16.self_attn.rotary_emb.inv_freq', 'model.layers.3.self_attn.rotary_emb.inv_freq', 'model.layers.7.self_attn.rotary_emb.inv_freq', 'model.layers.6.self_attn.rotary_emb.inv_freq', 'model.layers.1.self_attn.rotary_emb.inv_freq', 'model.layers.17.self_attn.rotary_emb.inv_freq', 'model.layers.26.self_attn.rotary_emb.inv_freq', 'model.layers.30.self_attn.rotary_emb.inv_freq', 'model.layers.27.self_attn.rotary_emb.inv_freq', 'model.layers.8.self_attn.rotary_emb.inv_freq', 'model.layers.12.self_attn.rotary_emb.inv_freq', 'model.layers.21.self_attn.rotary_emb.inv_freq', 'model.layers.22.self_attn.rotary_emb.inv_freq', 'model.layers.4.self_attn.rotary_emb.inv_freq', 'model.layers.24.self_attn.rotary_emb.inv_freq', 'model.layers.29.self_attn.rotary_emb.inv_freq', 'model.layers.9.self_attn.rotary_emb.inv_freq', 'model.layers.11.self_attn.rotary_emb.inv_freq', 'model.layers.23.self_attn.rotary_emb.inv_freq', 'model.layers.19.self_attn.rotary_emb.inv_freq', 'model.layers.28.self_attn.rotary_emb.inv_freq', 'model.layers.18.self_attn.rotary_emb.inv_freq', 'model.layers.25.self_attn.rotary_emb.inv_freq'}. This may or may not be an issue - make sure that the checkpoint does not have unnecessary parameters, or that the model definition correctly corresponds to the checkpoint.
+The model 'LlamaGPTQForCausalLM' is not supported for text-generation. Supported models are ['BartForCausalLM', 'BertLMHeadModel', 'BertGenerationDecoder', 'BigBirdForCausalLM', 'BigBirdPegasusForCausalLM', 'BioGptForCausalLM', 'BlenderbotForCausalLM', 'BlenderbotSmallForCausalLM', 'BloomForCausalLM', 'CamembertForCausalLM', 'LlamaForCausalLM', 'CodeGenForCausalLM', 'CpmAntForCausalLM', 'CTRLLMHeadModel', 'Data2VecTextForCausalLM', 'ElectraForCausalLM', 'ErnieForCausalLM', 'FalconForCausalLM', 'FuyuForCausalLM', 'GitForCausalLM', 'GPT2LMHeadModel', 'GPT2LMHeadModel', 'GPTBigCodeForCausalLM', 'GPTNeoForCausalLM', 'GPTNeoXForCausalLM', 'GPTNeoXJapaneseForCausalLM', 'GPTJForCausalLM', 'LlamaForCausalLM', 'MarianForCausalLM', 'MBartForCausalLM', 'MegaForCausalLM', 'MegatronBertForCausalLM', 'MistralForCausalLM', 'MixtralForCausalLM', 'MptForCausalLM', 'MusicgenForCausalLM', 'MvpForCausalLM', 'OpenLlamaForCausalLM', 'OpenAIGPTLMHeadModel', 'OPTForCausalLM', 'PegasusForCausalLM', 'PersimmonForCausalLM', 'PhiForCausalLM', 'PLBartForCausalLM', 'ProphetNetForCausalLM', 'QDQBertLMHeadModel', 'Qwen2ForCausalLM', 'ReformerModelWithLMHead', 'RemBertForCausalLM', 'RobertaForCausalLM', 'RobertaPreLayerNormForCausalLM', 'RoCBertForCausalLM', 'RoFormerForCausalLM', 'RwkvForCausalLM', 'Speech2Text2ForCausalLM', 'TransfoXLLMHeadModel', 'TrOCRForCausalLM', 'WhisperForCausalLM', 'XGLMForCausalLM', 'XLMWithLMHeadModel', 'XLMProphetNetForCausalLM', 'XLMRobertaForCausalLM', 'XLMRobertaXLForCausalLM', 'XLNetLMHeadModel', 'XmodForCausalLM'].
+/usr/local/lib/python3.10/dist-packages/langchain_core/_api/deprecation.py:117: LangChainDeprecationWarning: The function `acall` was deprecated in LangChain 0.1.0 and will be removed in 0.2.0. Use ainvoke instead.
+  warn_deprecated(
+ Yes, there are economic support measures for start-up companies in the 2023 Hong Kong Budget. Here are some of the initiatives announced in the budget:
+1. Innovation and Technology Venture Fund: The government will set up a $2 billion Innovation and Technology Venture Fund to support early-stage start-ups in Hong Kong.
+2. Corporate Venture Fund: The government will also set up a $500 million Corporate Venture Fund to encourage corporations to invest in innovation and technology start-ups.
+3. Cyberport Macro Fund: The government will provide $500 million to the Cyberport to set up a Macro Fund, which will invest in innovation and technology start-ups with significant growth potential.
+4. Hong Kong Growth Portfolio: The government will increase the funding allocated to the Hong Kong Growth Portfolio under the Future Fund by $10 billion, of which $5 billion will be used to set up a new investment fund, namely This is a friendly reminder - the current text generation call will exceed the model's predefined maximum length (2048). Depending on the model, you may observe exceptions, performance degradation, or nothing at all.
+the Strategic Tech Fund.
+5. Enterprise Support Grant: The government will provide an additional $1 billion to the Enterprise Support Grant to support start-ups and small and medium-sized enterprises (SMEs) in Hong Kong.
+
+These initiatives are aimed at supporting start-ups and SMEs in Hong Kong, particularly those in the innovation and technology sector, to help them grow and develop. By providing financial support and creating more investment opportunities, the government hopes to foster a vibrant start-up ecosystem in Hong Kong and drive economic growth.
+ Of course! The Cyberport Marco Fund is a venture capital fund established by the Hong Kong Science Parks (HKSTP) and the Cyberport in 2018. The fund aims to invest in early-stage startups with high growth potential in the technology, media, and telecommunications (TMT) sectors. The fund's name, Marco, represents the idea of "Market Opportunity, Revolutionary Change, and Outstanding Potential."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
